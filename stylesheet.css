@@ -1,11 +1,27 @@
 body {
     background-color: white;
+    width: 1366px;
+    
 }
 header{
-    background-color: #F1F2F4;
+    
     font-family: Work Sans;
     font-weight: 500;
     
+}
+h4 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    color: #ffffff;
+    margin: 0px;
+    padding-top: 52px;
+    padding-bottom: 17.5px;
+    font-family: Work Sans;
+    }
+
+div {
+    border: 1px solid blueviolet;
 }
 
 .goodlinks {
@@ -13,8 +29,15 @@ header{
     /*color: #151C22;*/
 }
 
+.goodlinks-two {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 footer {
     background-color: #151C22;
+    min-height: 222px;
+    
 }
 .underheader {
     background-color: white;
@@ -29,6 +52,32 @@ ul {
     list-style-type: none;
 }
 
-.inline{
+
+.header-main{
+    background-color: #F1F2F4;
+    min-height: 617px;
+}
+
+.footer-menu {
+    
+    color: #ffffff;
+    text-align:center;
+}
+.footer-menu li {
     display: inline;
-} 
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+        
+}
+
+.footer-text {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Work Sans;
+    font-weight: 500;
+}
+.center-align{
+    text-align:center;
+}
+
