@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    width: 1376px;
+    width: 1366px;
     
 }
 @font-face {
@@ -62,10 +62,10 @@ h4 {
     }
 
 div {
-   border: 1px solid blueviolet;
+   /*border: 1px solid blueviolet;*/
 }
 section {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin-top: 130px;
 }
 
@@ -296,9 +296,12 @@ button a {
     
 }
 .rigth-link2{
-    margin-left: 28px;
+    margin-left: 20px;
     line-height: 40px;
 }
 .pd-bot{
     padding-bottom: 70px;
+}
+.pd-bot2{
+    padding-bottom: 128px;
 }
