@@ -671,3 +671,131 @@ top: -9px;
 .small-pic {
   padding-top: 22px;
 }
+
+.menu li{
+  background: grey;
+  display: block;
+  border:1px solid red;
+  padding: 10px;
+}
+.filter-menu {
+  width: 243px;
+  position: absolute;
+  top: 30px;
+  left: -135px;
+  border: 2px solid blue;
+  visibility: hidden;
+}
+.menu-list {
+position: relative;
+}
+.menu-drop1 {
+  position: absolute;
+  left: 243px;
+  width: 243px;
+  height: 60px;
+  border: 2px solid maroon;
+  padding-left: 11px;
+  padding-right: 11px;
+  background-color: white;
+
+}
+.menu-drop2 {
+  position: absolute;
+  left: 243px;
+  top: 200px;
+  width: 243px;
+  border: 2px solid maroon;
+}
+.circle {
+  width: 16px;
+	height: 16px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+  border-radius: 8px;
+  
+  margin-top: 1.5px;
+  margin-bottom: 2px;
+  margin-left: 1.5px;
+  margin-right: 2px;
+  visibility: visible;
+}
+.color1 {
+	background: #B0C3C7;;
+}
+.color2 {
+	background: #3B6392;;
+}
+.color3 {
+	background: #BFC3C8;
+}
+.color4 {
+	background: #2D2E2E;
+}
+.color5 {
+	background: #ECECEC;
+}
+.color6 {
+	background: #4193DA;
+}
+
+.circle-choise{
+  width: 21px;
+	height: 21px;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+  border-radius: 11px;
+
+border: 1px solid #B0C3C7;
+box-sizing: border-box;
+
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 8px;
+margin-right: 8px;
+visibility: hidden;
+}
+.circle-choise:hover{
+  visibility: hidden;
+}
+.menu-text{
+  font-size: 18px;
+  font-family: Work sans;
+  font-weight: 800;
+  margin-left: 10px;
+  margin-top: 20px;
+
+}
+.arrow{
+  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-left: 50px;
+  background-image: url(img/menuarrow1.png);
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 100%;
+  position: relative;
+}
+.main-menu {
+  margin-left: 500px;
+  background-color: white;
+  width: 243px;
+  height: 50px;
+  border: 1px solid tomato;
+
+}
+.arrow:hover{
+  margin-top: 20px;
+  margin-left: 50px;
+  background-image: url(img/menuarrow2.png);
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 11px;
+  transition: 100s all;
+  }
+  .arrow:hover .filter-menu{
+    /* border:6px solid blueviolet ; */
+    visibility: visible;
+    transition: 10s all;
+
+  }
